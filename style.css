@@ -1,0 +1,196 @@
+* {
+    background-color: beige;
+}
+
+* {box-sizing:border-box}
+
+details summary {
+    cursor: pointer;
+}
+
+details p {
+    background-color: rgb(69, 83, 101);
+}
+
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+details {
+    text-align : center;
+}
+
+details h1 {
+    background-color: rgb(255, 255, 255);
+}
+
+details h3 {
+    background-color: rgb(255, 255, 255);
+}
+
+details summary {
+    background-color: rgb(74,110,161);
+}
+
+details {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+    background-color: rgb(69, 83, 101);
+}
+
+#french {
+    width: 100%;
+    background-color: rgb(83, 131, 205);
+}
+
+#spanish {
+    width: 15%;
+    background-color: rgb(221, 101, 101);
+}
+
+#english {
+    width: 100%;
+    background-color: rgb(62, 138, 58);
+}
+
+.color {
+    background-color:rgb(130, 137, 171)
+}
+
+.bw {
+    font-weight:bold ;
+    font-size: 40px;
+
+}
+
+.b {
+    font-weight: bold;
+    
+}
+.center {
+    text-align: center;
+}
+
+.stylecard {
+    width:300px;height:200px;
+}
+.width {
+    width: 80%;
+    margin:auto ;
+}
+
+.widthA{
+    width: 60%;
+    margin:auto ;
+}
+
+
+ul.display {
+    display: inline-block;
+    text-align: left;
+    margin:auto;
+
+
+}
+
+.card {
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: auto;
+    background-color: rgb(69, 83, 101);
+}
+
+.title {
+    color: grey;
+  font-size: 18px;
+  text-align: center;
+}
+
+.button {
+    text-align: center;
+    width: 100%;
+    background-color:black;
+    font-size: 18px;
+    color:white
+
+}
+.flip {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid color gray;
+    perspective: 100px; 
+    margin: auto;
+
+}
+
+.flip-inside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip:hover .flip-inside {
+    transform: rotateY(180deg);
+}
+
+.flip-frontA , .flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-frontB, .flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-frontA {
+    background-image: url(jo.jpg);
+    
+}
+
+.flip-frontB {
+    background-image: url(jj.jpg);
+    
+}
+
+.flip-back {
+    background-color: rgb(138, 184, 228);
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+}
+
+
+.container {
+    width:70%;
+    background-color: grey;
+    margin: auto;
+
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
